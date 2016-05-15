@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="blue" type="color">#0000FF</item>
+    <item name="skyblue" type="color">#009acd</item>
+    <item name="dodgerblue" type="color">#104e8b</item>
+    <item name="mountainblue" type="color">#4981ce</item>
+    <item name="stlouisblues" type="color">#2c5197</item>
+    <item name="blue1" type="color">#0147fa</item>
+    <item name="purple" type="color">#FFAA66CC</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="red" type="color">#FFFF4444</item>
+    <item name="darkblue" type="color">#0000cd</item>
+    <item name="darkpurple" type="color">#FF9933CC</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+    <item name="white" type="color">#FFFFFF</item>
+    <item name="yellow" type="color">#ffff00</item>
+    <item name="black" type="color">#000000</item>
+
+</resources>

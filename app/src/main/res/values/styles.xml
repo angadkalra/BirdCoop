@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blue1</item>
+    </style>
+
+    <style name="HomeScreenButtons">
+        <item name="android:background">@drawable/touch_selector</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_margin">7dp</item>
+    </style>
+
+    <style name="BirdCoopTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/ActionBar.Solid.BirdCoop.NoTitle</item>
+    </style>
+
+    <style name="ActionBar.Solid.BirdCoop.NoTitle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:displayOptions">useLogo|showHome</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+</resources>
