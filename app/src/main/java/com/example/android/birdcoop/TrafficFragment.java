@@ -85,19 +85,21 @@ public class TrafficFragment extends Fragment {
 
             // These are the values of the JSON objects that need to be extracted.
             int capacity;
-            int current_count;
+            JSONObject current_count;
+            int count;
             int currently_open;
             String time;
 
             JSONObject trafficJson = new JSONObject(trafficJsonStr);
 
             capacity = trafficJson.getInt("capacity");
-            current_count = trafficJson.getInt("current_count");
+            current_count = trafficJson.getJSONObject("current_count");
+            count = current_count.getInt("count");
             currently_open = (trafficJson.getBoolean("currently_open") == true) ? 1 : 0;
 
             trafficData.put("currently_open", currently_open);
             trafficData.put("capacity", capacity);
-            trafficData.put("current_count", current_count);
+            trafficData.put("current_count", count);
 
             return trafficData;
         }
